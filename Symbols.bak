@@ -687,7 +687,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "2N3904BU"
+	(symbol "2SC1815"
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -761,7 +761,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "2N3904BU_0_1"
+		(symbol "2SC1815_0_1"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy 0.635 0)
@@ -798,7 +798,7 @@
 				)
 			)
 		)
-		(symbol "2N3904BU_1_1"
+		(symbol "2SC1815_1_1"
 			(polyline
 				(pts
 					(xy 0.635 0.635) (xy 2.54 2.54)

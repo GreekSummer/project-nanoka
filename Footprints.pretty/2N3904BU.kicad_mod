@@ -1,10 +1,10 @@
-(footprint "TO-92_Inline"
+(footprint "2N3904BU"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
-	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
+	(descr "TO-92 leads")
+	(tags "to-92 2n3904bu")
 	(property "Reference" "REF**"
 		(at -2.23 -0.5 270)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "2SC1815"
+	(property "Value" "2N3904BU"
 		(at 1.27 2.79 180)
 		(layer "F.Fab")
 		(hide yes)
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -159,15 +159,7 @@
 		(layer "F.Fab")
 		(uuid "51e47a3b-5fde-4516-b785-9bed7150947f")
 	)
-	(pad "1" thru_hole rect
-		(at 0 0)
-		(size 1.05 1.5)
-		(drill 0.75)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "f80ac54f-9c82-4b80-a462-fe74e83d6948")
-	)
-	(pad "2" thru_hole oval
+	(pad "B" thru_hole oval
 		(at 1.27 0)
 		(size 1.05 1.5)
 		(drill 0.75)
@@ -175,13 +167,21 @@
 		(remove_unused_layers no)
 		(uuid "2f92e583-30eb-4f29-a6a0-0b3a1e5806f7")
 	)
-	(pad "3" thru_hole oval
+	(pad "C" thru_hole oval
 		(at 2.54 0)
 		(size 1.05 1.5)
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c7044218-3f1a-4fc7-91bf-3b3d4a7be2f7")
+	)
+	(pad "E" thru_hole rect
+		(at 0 0)
+		(size 1.05 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f80ac54f-9c82-4b80-a462-fe74e83d6948")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline.wrl"
