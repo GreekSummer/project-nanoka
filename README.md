@@ -20,4 +20,19 @@ Fixed issues:
 2. Both relay issues have been fixed
 3. Audio input/output terminals are labelled correctly and more clearly
 4. C3 and C5 footprints fixed
-5. Kept potentiometer, but put a warning in place
+5. Replaced potentiometer with a 220 ohm resistor
+
+Improvements:
+1. Replaced transistors with cheaper, more readily available ones
+2. Tweaked transistor base resistor to draw less power from GPIO
+4. Switched from a 4-layer setup to a 2-layer setup, making this cheaper to produce
+5. Moved terminals closer to each other
+6. General layout improvements
+7. Symbols, footprints and 3D models are now packed in the repository
+
+Ideas for the future:
+1. Use a muxer IC to mix audio.
+2. Switch from PWM audio to I2C audio for a cleaner signal.
+3. Maybe re-design with SMD components to make this signafinantly smaller and elegant (but the THT components make it easier to assemble).
+
+I have not yet re-produced this, so functionality and issues are unknown for this version.
